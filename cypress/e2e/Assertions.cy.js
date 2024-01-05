@@ -37,6 +37,11 @@ describe('Assertions',()=>{
             cy.get("input[placeholder='Password']").type("admin123")
             cy.get("button[type='submit']").click
 
+            expect(true).to.be.true
+
+            assert.equal(4,'4','NOT EQUAL')
+           // assert.strictEqual(4,'4','NOT EQUAL') 
+
 
 
         })

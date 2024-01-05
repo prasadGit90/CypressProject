@@ -23,4 +23,17 @@ it('Verify title-Nagive test',function(){
     cy.title().should('not.equal','OrangeHRM123')
 })
 
+
+//driver.findElement(By.cssSelector("input[placeholder='Username']"))
+
+//driver.findElement(By.cssSelector("input[placeholder='Password']"))
+//driver.findElement(By.cssSelector("button[type='submit']"))
+//driver.findElement(By.cssSelector(".oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module"))
+
+
+"input[placeholder='Username']"
+"input[placeholder='Password']"
+"button[type='submit']"
+".oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module"
+
 })
