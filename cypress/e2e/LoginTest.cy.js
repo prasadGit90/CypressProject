@@ -2,9 +2,9 @@ import Login from "../PageObjects/LoginpageApproach2.js";
 
 //page object model 
 
-describe('TestSuit Verify Login Credentials ',()=>{
+describe(' Test Suite_Login ',()=>{
 
-    it('DataDrivenTest for valid username and password',()=>{
+    it('Valid username and password',()=>{
 
       cy.fixture('testData').then((userdata)=>{
 
